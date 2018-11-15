@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "pretty": true,
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "dynamic-vendor-webpack-plugin/*": ["../../*"] 
+    }
+  }
+}
